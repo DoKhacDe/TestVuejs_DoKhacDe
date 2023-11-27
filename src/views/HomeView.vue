@@ -142,9 +142,6 @@ const calculateProgress = () => {
   maxSize.value = 2 * 1024 * 1024 * 1024;
   progressValue.value = totalSize;
   progressPercentage.value = ((totalSize / maxSize.value) * 100).toFixed(0);
-  console.log(maxSize.value)
-  console.log(progressValue.value)
-  console.log(progressPercentage.value)
 };
 
 onMounted(() => {
